@@ -59,6 +59,8 @@ library(modelsummary); library(tidyverse);
 
 **Designated place**: type one or two sentences describing this table of a fellow student below. For example, comment on the mean and median growth of both groups. Then stage, commit and push it to their github repository. 
 
+For the category under No revolutions the growth mean is 2.46 while the rgdp60 is 5283.32. There is a significant differences between these two variables when you compare it to the category of Revolutions. As the growth mean under Revolutions is 1.69 and rgdp60 is 1988.67. 
+
 
 ### Part 3: Make a table summarizing reressions using modelsummary and kable
 

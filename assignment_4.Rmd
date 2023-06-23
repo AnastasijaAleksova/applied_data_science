@@ -6,7 +6,7 @@ title: |
 author: |
   | Anastasija Aleksova
   | a.aleksova@students.uu.nl
-  | https://github.com/AnastasijaAleksova/
+  | https://github.com/AnastasijaAleksova
 date: April 2023
 urlcolor: purple
 linkcolor: purple
@@ -129,7 +129,7 @@ table <- list(model1, model2, model3, model4) |>
               add_header_above(
                 c(" ", "Model 1" = 1, "Model 2" = 1, "Model 3" = 1, "Model 4" = 1)) |>
                 kable_styling() |>
-                column_spec(column = 2, background = "red", color = "white")
+                row_spec(3:4, background = "red", color = "white")
 table
 ```
 
